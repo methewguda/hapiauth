@@ -1,16 +1,16 @@
 # hapiauth
 An user authentication application developed with HapiJS, NodeJS and MongoDB
 
-### Clone ExpressSite
+### Clone hapiauth
 
-Clone the ExpressSite repository using [git][git]:
+Clone the hapiauth repository using [git]:
 
 ```
 git clone https://github.com/methewguda/hapiauth.git
 cd hapiauth
 ```
 
-If you just want to start a new project without the ExpressSite commit history then you can do:
+If you just want to start a new project without the hapiauth commit history then you can do:
 
 ```bash
 git clone --depth=1 https://github.com/methewguda/hapiauth.git <your-project-name>
