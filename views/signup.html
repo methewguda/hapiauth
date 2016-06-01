@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+
+    <title>{{title}} | HapiAuth</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Signup Page</h1>
+    <form method="POST" action="/user">
+        <div>
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" autofocus>
+        </div>
+        <br>
+        <div>
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+        <br>
+        <div>
+            <input type="password" id="password" name="password" placeholder="Password">
+        </div>
+        <br>
+        <div>
+            <input type="password" id="passwordRe" name="passwordRe" placeholder="Repeat Password">
+        </div>
+        <br>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+</body>
+</html>
