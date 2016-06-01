@@ -7,7 +7,7 @@ Clone the ExpressSite repository using [git][git]:
 
 ```
 git clone https://github.com/methewguda/hapiauth.git
-cd ExpressSite
+cd hapiauth
 ```
 
 If you just want to start a new project without the ExpressSite commit history then you can do:
