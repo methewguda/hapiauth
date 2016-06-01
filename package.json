@@ -1,0 +1,21 @@
+{
+  "name": "hapiauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Methew Guda",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.6",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.4.1",
+    "hapi-auth-basic": "^4.2.0",
+    "joi": "^8.4.0",
+    "mongoose": "^4.4.19",
+    "vision": "^4.1.0"
+  }
+}
