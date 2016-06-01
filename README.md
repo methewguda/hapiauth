@@ -25,3 +25,5 @@ We have two kinds of dependencies in this project:
 ```
 npm install
 ```
+
+Now browse to the app at `http://localhost:3000`
